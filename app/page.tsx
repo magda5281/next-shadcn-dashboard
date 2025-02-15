@@ -15,6 +15,7 @@ import { ThemeToggle } from '@/components/theme-toggle'
 import TeamSwitcher from '@/components/team-switcher'
 import { Search } from '@/components/search'
 import { UserNav } from '@/components/user-nav'
+import { CalendarDateRangePicker } from '@/components/date-range-picker'
 
 
 export const metadata: Metadata = {
@@ -38,7 +39,7 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
-        {/* <div className='flex-1 space-y-4 p-8 pt-6'>
+        <div className='flex-1 space-y-4 p-8 pt-6'>
           <div className='flex items-center justify-between space-y-2'>
             <h2 className='text-3xl font-bold tracking-tight'>Dashboard</h2>
             <div className='flex items-center space-x-2'>
@@ -46,7 +47,7 @@ export default function DashboardPage() {
               <Button>Download</Button>
             </div>
           </div>
-          <Tabs defaultValue='overview' className='space-y-4'>
+          {/* <Tabs defaultValue='overview' className='space-y-4'>
             <TabsList>
               <TabsTrigger value='overview'>Overview</TabsTrigger>
               <TabsTrigger value='analytics' disabled>
@@ -185,8 +186,8 @@ export default function DashboardPage() {
                 </Card>
               </div>
             </TabsContent>
-          </Tabs>
-        </div> */}
+          </Tabs> */}
+        </div>
       </div>
     </>
   )
