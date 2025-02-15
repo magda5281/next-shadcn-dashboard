@@ -14,6 +14,7 @@ import { MainNav } from '@/components/main-nav'
 import { ThemeToggle } from '@/components/theme-toggle'
 import TeamSwitcher from '@/components/team-switcher'
 import { Search } from '@/components/search'
+import { UserNav } from '@/components/user-nav'
 
 
 export const metadata: Metadata = {
@@ -33,7 +34,7 @@ export default function DashboardPage() {
             <div className='ml-auto flex items-center space-x-4'>
               <Search />
               <ThemeToggle />
-              {/* <UserNav /> */}
+              <UserNav />
             </div>
           </div>
         </div>
