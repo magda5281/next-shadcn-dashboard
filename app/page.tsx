@@ -16,6 +16,8 @@ import TeamSwitcher from '@/components/team-switcher'
 import { Search } from '@/components/search'
 import { UserNav } from '@/components/user-nav'
 import { CalendarDateRangePicker } from '@/components/date-range-picker'
+import { Overview } from '@/components/overview'
+import { RecentSales } from '@/components/recent-sales'
 
 
 export const metadata: Metadata = {
@@ -47,7 +49,7 @@ export default function DashboardPage() {
               <Button>Download</Button>
             </div>
           </div>
-          {/* <Tabs defaultValue='overview' className='space-y-4'>
+          <Tabs defaultValue='overview' className='space-y-4'>
             <TabsList>
               <TabsTrigger value='overview'>Overview</TabsTrigger>
               <TabsTrigger value='analytics' disabled>
@@ -186,7 +188,7 @@ export default function DashboardPage() {
                 </Card>
               </div>
             </TabsContent>
-          </Tabs> */}
+          </Tabs>
         </div>
       </div>
     </>

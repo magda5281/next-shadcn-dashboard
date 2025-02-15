@@ -1,6 +1,6 @@
 'use client'
 
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip as ChartTooltip } from 'recharts'
 
 const data = [
   {
@@ -77,6 +77,7 @@ export function Overview() {
           radius={[4, 4, 0, 0]}
           className='fill-primary'
         />
+        <ChartTooltip/>
       </BarChart>
     </ResponsiveContainer>
   )
