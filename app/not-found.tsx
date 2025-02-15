@@ -18,7 +18,7 @@ export default function NotFoundPage() {
         </CardHeader>
         <CardContent className="flex flex-col items-center space-y-4">
           <p className="text-muted-foreground">
-            It looks like the page you're trying to visit doesn't exist.
+            It looks like the page you are trying to visit doesn&apos;t
           </p>
           <div className="flex space-x-4">
             <Button asChild variant="outline">
